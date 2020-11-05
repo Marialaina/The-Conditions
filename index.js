@@ -80,17 +80,72 @@ deafult to const
 
 ///Switch STATEMENT
 
-const food = "apple";
+// const food = "apple";
 
-switch(food) {
-    case `pear`:
-        console.log('I love pears');
-    case `apple`:
-        console.log('I love apples');
+// switch(food) {
+//     case `pear`:
+//         console.log('I love pears');
+//     case `apple`:
+//         console.log('I love apples');
 
-    default: 
-    console.log('What???');
+//     default: 
+//     console.log('What???');
+// }
+
+// const users = [`gabe`, `adrian`, `mari`, `dom`];
+
+// for( let i = 0; i< 5; i += 2) {
+//     console.log(i);
+// }
+
+// const nums = [1, 2, 3,4 ,5 ];
+// for (let i = 0; i < nums.length; i++){
+//     nums[i] = nums[i] * 2;
+// }
+// console.log(nums);
+
+// const students = [
+//     'gabe',
+//     'adrian',
+//     'dom',
+// ];
+
+// for (let i = 0; i< students.length; i++){
+//     if (students[i] === 'Casey' || students[i] === 'Mary'){
+//         console.log(students[i]);
+//     }
+// }
+
+// for(let i = 0; i < 100; i++ ){
+//     if (!(i % 2 === 0)){
+//         console.log('ODD', i);
+//     }
+// }
+
+
+
+// for (let i = 1; i <= 100; i++){
+//     if (i % 3 === 0){
+//         console.log(`fizz`);
+//     }
+//     else {
+//         console.log(i);
+//     }
+// }
+
+for (let i = 1; i <= 100; i++){
+    if ( i % 3 === 0 && i % 5 === 0){
+        console.log(`fizz buzz`);
+    }
+    else if ( i % 5 === 0){
+        console.log(`buzz`)
+    }
+    else if ( i % 3 === 0 ){
+        console.log(`fizz`);
+    }
+    else {
+        console.log(i);
+    }
 }
-
 
 
